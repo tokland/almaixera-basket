@@ -1,0 +1,96 @@
+ul {
+  list-style-type: none;
+}
+
+#box {
+  margin: 20px 0px;
+}
+
+#products {
+  display: table-cell;
+  font-size: 0.7em;
+  vertical-align: top;
+  min-width: 450px;
+}
+
+#basket {
+  display: table-cell;
+  vertical-align: top;
+  min-width: 450px;
+  font-size: 0.8em;
+}
+
+#products .product-name {
+  display: inline-block;
+  width: 66%;
+}
+
+#box .subtotal {
+  margin-left: 0.5em; 
+}
+
+#box input.quantity {
+  width: 5em;
+}
+
+#box input.quantity.with-value {
+  background-color: #CFC;
+}
+
+#basket {
+  padding-left: 20px;
+}
+
+#basket .product-name {
+  display: inline-block;
+  width: 65%;
+}
+
+.remove {
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 1.0em;
+}
+
+#basket {
+  margin-left: 5px;
+}
+
+#products .ui-accordion .ui-accordion-content {
+  padding: 0.5em 0.5em;
+}
+
+#products .ui-accordion .ui-accordion-header {
+  padding: 2px 10px 2px 26px;
+}
+
+#products-selector {
+  overflow-y: auto;
+  max-height: 550px;
+}
+
+#basket {
+  overflow-y: auto;
+  max-height: 550px;
+}
+
+#products {
+  height: 550px;
+}
+
+li > span {
+  vertical-align: top;
+}
+
+#basket .ui-spinner {
+  font-size: 1em;
+} 
+
+.subtotal {
+  font-size: 1.1em;
+}
+
+#products-selector .ui-state-hover:active { 
+  border: 1px solid #DDD; 
+  color: #555;
+}
