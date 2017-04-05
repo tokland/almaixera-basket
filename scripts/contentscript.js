@@ -26,16 +26,7 @@ function insertCSS(url) {
   document.head.appendChild(link);
 }
 
-var baseUrl = '//download.zaudera.com/public/almaixera/';
+var baseUrl = 'https://rawgit.com/tokland/almaixera-basket/master/dist/';
 
 insertScript(baseUrl + "all.js");
 insertCSS(baseUrl + "all.css");
-/*
-dependencies.js.forEach(function(path) {
-  insertScript(baseUrl + path);
-});
-
-dependencies.css.forEach(function(path) {
-  insertCSS(baseUrl + path);
-});
-*/

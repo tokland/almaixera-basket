@@ -539,16 +539,16 @@ ul {
 
 #products-selector {
   overflow-y: auto;
-  max-height: 550px;
+  max-height: 540px;
 }
 
 #basket {
   overflow-y: auto;
-  max-height: 550px;
+  max-height: 540px;
 }
 
 #products {
-  height: 550px;
+  height: 540px;
 }
 
 li > span {
