@@ -71,11 +71,11 @@ ul {
 
 #basket {
   overflow-y: auto;
-  max-height: 560px;
+  max-height: 550px;
 }
 
 #products {
-  height: 560px;
+  height: 550px;
 }
 
 li > span {
