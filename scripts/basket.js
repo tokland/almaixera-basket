@@ -179,7 +179,7 @@ var getQuantityInput = function(form_index, event, product, quantity) {
     "name": fname,
     "className": "quantity",
     "min": 0,
-    "step": step == 1 ? step : "any",
+    "step": "any",
     "type": "number",
     "onchange": event(onProductQuantityChange, product)
   };
